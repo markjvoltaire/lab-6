@@ -1,0 +1,21 @@
+img{
+    width: 200px;
+    height: 200px;
+    display: flex;
+}
+
+h2{
+    color: white;
+}
+body{
+    background-color: black;
+}
+
+header{
+    color: white;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+div{
+    
+}

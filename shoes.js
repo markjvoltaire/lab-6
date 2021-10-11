@@ -2,7 +2,7 @@ export const shoes =[
    {
 
     id: '1',
-    brand: 'Nike',
+    brand: 'Nike Dunks',
     type: 'low top',
     img: 'assets/sneakers pics/nike-dunks-low.png',
 
@@ -10,7 +10,7 @@ export const shoes =[
 
    {
        id: '2',
-       brand: 'Jordan',
+       brand: 'Jordans',
        type: 'low top',
        img: 'assets/sneakers pics/cement-3.png'
     
@@ -19,7 +19,7 @@ export const shoes =[
 
     {
         id: '3',
-        brand: 'Adidas',
+        brand: 'Yeezys',
         type: 'low top',
         img: 'assets/sneakers pics/yeezy-700.png'
     }
