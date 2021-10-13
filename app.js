@@ -1,8 +1,11 @@
-// import functions and grab DOM elements
-import { shoes } from './shoes.js';
-import { renderSneakers } from './render-sneakers.js';
 
+// import functions and grab DOM elements
+import { shoes } from './Data/shoes.js';
+import { renderSneakers } from './render-sneakers.js';
+//import { findById } from  './'
 // initialize global state
+
+console.log(shoes)
 
 const sneakerList = document.getElementById('sneaker-list');
 
