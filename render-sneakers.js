@@ -12,9 +12,11 @@ export function renderSneakers(shoe){
 
     const addButton = document.createElement('button');
     addButton.textContent = 'add to cart';
+    addButton.classList.add('buy-Button');
+    addButton.id = shoe.id;
 
-    sneakerDisplay.append(sneakerHeader, img, addButton );
-    return sneakerDisplay
+    sneakerDisplay.append(sneakerHeader, img, addButton);
+    return sneakerDisplay;
 
 
 
