@@ -13,7 +13,7 @@ for (let cartItem of cart){
 
     const tr = renderLineItem(cartItem, shoeData);
     tbody.appendChild(tr);
-    console.log(tr);
+    
 }
 
 const orderTotal = calculateOrderTotal(cart, shoes);
@@ -24,4 +24,4 @@ const orderButton = document.getElementById('completeButton');
 orderButton.addEventListener('click', ()=>{
     localStorage.removeItem('CART');
     window.location.replace('..');
-});
+});  
