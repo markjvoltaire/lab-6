@@ -13,8 +13,8 @@ export function renderSneakers(shoe){
     const addButton = document.createElement('button');
     addButton.textContent = 'add to cart';
 
-    sneakerDisplay.append(sneakerHeader, img, addButton );
-    return sneakerDisplay
+    sneakerDisplay.append(sneakerHeader, img, addButton);
+    return sneakerDisplay;
 
 
 
