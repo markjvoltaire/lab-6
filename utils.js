@@ -1,4 +1,4 @@
-import { shoes } from './Data/shoes.js';
+//import { shoes } from './Data/shoes.js';
 
 
 export function findById(id, items){
@@ -13,8 +13,8 @@ export function findById(id, items){
 export function calculateOrderTotal(cart, shoes){
     let orderTotal = 0;
     for (let item of cart){
-        const shoes = findById(item.id, shoes);
-        orderTotal = orderTotal + shoes.price * item.qty;
+        const shoe = findById(item.id, shoes);
+        orderTotal = orderTotal + shoe.price * item.qty;
     }
     return orderTotal;
 

@@ -13,13 +13,14 @@ for (let cartItem of cart){
 
     const tr = renderLineItem(cartItem, shoeData);
     tbody.appendChild(tr);
+    console.log(tr);
 }
 
 const orderTotal = calculateOrderTotal(cart, shoes);
 const tdOrdertotal = document.getElementById('total');
-tdOrdertotal.textContent = toUSD(ordertotal);
+tdOrdertotal.textContent = toUSD(orderTotal);
 
-const orderButton = document.getElementById('completebutton');
+const orderButton = document.getElementById('completeButton');
 orderButton.addEventListener('click', ()=>{
     localStorage.removeItem('CART');
     window.location.replace('..');
