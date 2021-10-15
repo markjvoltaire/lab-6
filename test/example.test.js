@@ -1,7 +1,7 @@
 // IMPORT MODULES under test here:
 import { shoes } from '../Data/shoes.js';
 
-import { findById } from './utils';
+import { findById } from './utils.js';
 
 // import { example } from '../example.js';
 
