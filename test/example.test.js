@@ -11,14 +11,14 @@ test('time to test a function', (expect) => {
    
     const expected = {
         id: '2',
-        brand: 'Jordans',
-        type: 'low top',
-        img: 'assets/sneakers pics/cement-3.png'
+        img: 'assets/sneakers pics/cement-3.png',
+        price: 350,
+        shoeName: 'Black Cement 3'
        
     };
    
    
-    const actual = findById ('4', shoes);
+    const actual = findById ('2', shoes);
     //Arrange
     // Set up your arguments and expectations
     
@@ -29,5 +29,5 @@ test('time to test a function', (expect) => {
 
     //Expect
     // Make assertions about what is expected versus the actual result
-    expect.equal(actual, expected);
+    expect.deepEqual(actual, expected);
 });
