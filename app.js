@@ -8,8 +8,8 @@ const sneakerList = document.getElementById('sneaker-list');
 
 // set event listeners 
 for (let shoe of shoes){
-  const sneakerCard = renderSneakers(shoe);
-  sneakerList.append(sneakerCard)
+    const sneakerCard = renderSneakers(shoe);
+    sneakerList.append(sneakerCard);
 }
   // get user input
   // use user input to update state 
