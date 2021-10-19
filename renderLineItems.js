@@ -2,6 +2,7 @@ import { toUSD } from './utils.js';
 
 
 export function renderLineItem(cartItem, shoes){
+    console.log(shoes)
     const tr = document.createElement('tr');
 
     const tdName = document.createElement('td');

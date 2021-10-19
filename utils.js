@@ -48,3 +48,27 @@ export function addItem(id){
     localStorage.setItem('CART', stringCart);
 
 }
+import { shoes } from './Data/shoes.js';
+export function getProducts(){
+// get products from local storage
+//if there are no products, then seed our shoe data.
+    const productString = localStorage.getItem('PRODUCTS');
+    const products = JSON.parse(productString);
+    
+    //Asking if there are no products already in local storage
+    if (!products){
+        
+        //Turning products into a string for local storage
+        const stringProduct = JSON.stringify(shoes);
+
+        //Pushing to local storage
+        localStorage.setItem('PRODUCTS', stringProduct);  
+
+
+
+    }
+    return products || shoes;
+
+
+}
+
