@@ -10,7 +10,7 @@ const cart = getCart();
 const tbody = document.getElementById('tableBody');
 for (let cartItem of cart){
     const shoeData = findById(cartItem.id, shoes);
-    console.log(cartItem);
+
     const tr = renderLineItem(cartItem, shoeData);
     tbody.appendChild(tr);
     

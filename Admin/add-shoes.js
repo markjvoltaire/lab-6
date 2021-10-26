@@ -15,7 +15,7 @@ form.addEventListener('submit', (e)=>{
 
     };
 
-    console.log(newShoe);
+    
     addItem(newShoe.id);
     alert('New Shoe Added');
 

@@ -2,7 +2,7 @@ import { toUSD } from './utils.js';
 
 
 export function renderLineItem(cartItem, shoes){
-    console.log(shoes)
+    
     const tr = document.createElement('tr');
 
     const tdName = document.createElement('td');
@@ -21,10 +21,9 @@ export function renderLineItem(cartItem, shoes){
     tr.append(tdName, tdPrice, tdQty, tdTotal);
 
     return tr;
-
-     
 }
 
 // everytime add to cart is clicked
 // shoe and shoe data is added to cart table
+
 
