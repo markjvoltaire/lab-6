@@ -1,0 +1,33 @@
+table{
+    
+    
+}
+
+thead{
+    font-family: 'Luckiest Guy', cursive;
+}
+
+tbody{
+    color: white;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+
+body{
+    color: white;
+    background-color: black;
+}
+
+h1{
+    font-family: 'Luckiest Guy', cursive;
+
+}
+
+tfoot{
+    font-family: 'Luckiest Guy', cursive;
+}
+h2{
+    font-family: 'Luckiest Guy', cursive;
+    color: red;
+
+}
