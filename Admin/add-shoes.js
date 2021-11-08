@@ -1,4 +1,4 @@
-import { addItem } from '../utils.js';
+import { addItem, addProduct, } from '../utils.js';
 
 const form = document.getElementById('product-form');
 
@@ -16,11 +16,12 @@ form.addEventListener('submit', (e)=>{
     };
 
     
-    addItem(newShoe.id);
+    addProduct(newShoe);
     alert('New Shoe Added');
+    form.reset();
 
 
 });
 
-
+console.log(form)
 

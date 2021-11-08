@@ -72,3 +72,9 @@ export function getProducts(){
 
 }
 
+export function addProduct(newShoe) {
+    let products = getProducts();
+    products.push(newShoe);
+    let productStrings = JSON.stringify(products);
+    localStorage.setItem('PRODUCTS', productStrings)
+}
